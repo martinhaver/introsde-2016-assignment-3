@@ -1,0 +1,21 @@
+{
+  "name": "IntroSDE Assignment 3",
+  "description": "SOAP Web Services",
+  "repository": "https://github.com/martinhaver/introsde-2016-assignment-3",
+  "logo": "https://avatars3.githubusercontent.com/u/6636327?v=3&s=200",
+  "image": "heroku/java",
+  "env": {
+    "HEROKU_URL": {
+      "description": "The URL of this Heroku app.",
+      "value": "https://safe-earth-76077.herokuapp.com/ws/people"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/IntroSDE/heroku-buildpack-ant.git"
+    },
+    {
+      "url": "heroku/java"
+    }
+  ] 
+}
